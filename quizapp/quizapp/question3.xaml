@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="quizapp.question3">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="vad står LOL för?" FontSize="36" />
+            <Button Clicked="Button_Clicked" Text="A) LOL?" />
+            <Button Clicked="Button_Clicked_1" Text="B) Laugh out loud" />
+            <Button Clicked="Button_Clicked_2" Text="C) Loud of Laugh" />
+            <Button Clicked="Button_Clicked_3" Text="D) WOW!" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

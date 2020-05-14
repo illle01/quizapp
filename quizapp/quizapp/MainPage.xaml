@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="quizapp.MainPage">
+
+    <StackLayout BackgroundColor="#111173">
+
+        <Label Text="Hur stor är sveriges befolkning 2019?" FontSize="36" />
+        <Button Clicked="Button_Clicked" Text="A) 8 miljoner" />
+        <Button Clicked="Button_Clicked_1" Text="B) 13 miljoner" />
+        <Button Clicked="Button_Clicked_2" Text="C) 11 miljoner" />
+        <Button Clicked="Button_Clicked_3" Text="D) 10.7 miljoner" />
+
+    </StackLayout>
+
+</ContentPage>
